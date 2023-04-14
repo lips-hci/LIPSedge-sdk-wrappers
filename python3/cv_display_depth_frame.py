@@ -59,10 +59,15 @@ try:
         # Display image
         cv2.namedWindow("Depth View", cv2.WINDOW_AUTOSIZE)
         cv2.imshow("Depth View", depth_colormap)
-        cv2.waitKey(1)
+
+        key = cv2.waitKey(1)
+        # press key q or Esc can quit the window
+        if key & 0xFF == ord('q') or key & 0xFF == 27:
+            break
 
 finally:
 
     # Stop streaming
     depth_stream.stop()
     openni2.unload()
+    print("Bye bye!")
