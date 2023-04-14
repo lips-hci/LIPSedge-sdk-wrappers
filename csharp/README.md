@@ -4,17 +4,17 @@
 
 .NET samples are provided by LIPS to demonstrate depth streaming of LIPSedge camera and OpenNI2 device management.
 
-## Samples
+## List of samples
 
 #### Basic
 |Name|Description|
 |----|----|
-|[NiHello.Net](NiHello.Net)|simple hello program to demo openni device enumeration|
-|[SimpleRead.Net](SimpleRead.Net)|demo how to stream depth frame and read pixel data|
-|[SimpleViewer.Net](SimpleViewer.Net)|a sample with Window Form to display depth frame|
+|[NiHello.Net](NiHello.Net)|Simple hello program to demo openni device enumeration|
+|[SimpleRead.Net](SimpleRead.Net)|Sample to stream depth frame and read pixel data|
+|[SimpleViewer.Net](SimpleViewer.Net)|Simple Window Form program to display depth frame|
 
 #### Advanced
 |Name|Description|
 |----|----|
-|[NiViewer.Net](NiViewer.Net)|simple c# version NiViewer|
-|[Ni2WPFViewer](Ni2WPFViewer)|a simple depth frame viewer developed by WPF UI framework|
+|[NiViewer.Net](NiViewer.Net)|A simple C# version NiViewer|
+|[Ni2WPFViewer](Ni2WPFViewer)|Depth frame viewer developed by WPF UI framework|
