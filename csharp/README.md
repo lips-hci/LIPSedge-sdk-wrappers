@@ -1,12 +1,12 @@
-# C# wrapper and samples for OpenNI2
+# .NET wrapper and samples for LIPSedge SDK
 
-.Net wrapper is from project [NiWrapper.Net](https://github.com/falahati/NiWrapper.Net)
+.NET wrapper is from project [NiWrapper.Net](https://github.com/falahati/NiWrapper.Net)
 
-CMake scripts are develpled by LIPS Corp.
+.NET samples are provided by LIPS to demonstrate depth streaming of LIPSedge camera and OpenNI2 device management.
 
 ## Samples
 
-#### Simple
+#### Basic
 |Name|Description|
 |----|----|
 |[NiHello.Net](NiHello.Net)|simple hello program to demo openni device enumeration|
